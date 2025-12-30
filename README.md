@@ -28,30 +28,33 @@ This is a simple command-line interface (CLI) application for managing tasks. Yo
 ## Usage
 ```bash
 # Adding a new task
-java TaskCLIApp add "Buy groceries"
+java TaskCLI add "Buy groceries"
 # Output: Task added successfully (ID: 1)
 
 # Updating a task
-java TaskCLIApp update 1 "Buy groceries and cook dinner"
+java TaskCLI update 1 "Buy groceries and cook dinner"
 # Output: Task updated successfully (ID: 1)
 
 # Deleting a task
-java TaskCLIApp delete 1
+java TaskCLI delete 1
 # Output: Task deleted successfully (ID: 1)
 
 # Marking a task as in progress
-java TaskCLIApp mark-in-progress 1
+java TaskCLI mark-in-progress 1
 # Output: Task marked as in progress (ID: 1)
 
 # Marking a task as done
-java TaskCLIApp mark-done 1
+java TaskCLI mark-done 1
 # Output: Task marked as done (ID: 1)
 
 # Listing all tasks
-java TaskCLIApp list
+java TaskCLI list
 # Output: List of all tasks
 
 # Listing tasks by status
-java TaskCLIApp list todo
+java TaskCLI list todo
+java TaskCLI list in-progress
+java TaskCLI list done
+
 java TaskCLIApp list in-progress
 java TaskCLIApp list done
