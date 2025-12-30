@@ -55,6 +55,3 @@ java TaskCLI list
 java TaskCLI list todo
 java TaskCLI list in-progress
 java TaskCLI list done
-
-java TaskCLIApp list in-progress
-java TaskCLIApp list done
